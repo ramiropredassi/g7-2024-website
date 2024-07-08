@@ -45,13 +45,13 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Progettone Website Guide"
+    title :  "Birra, Fernandito e Pallone"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
     - title: Bootstrap
       url: /bootstrap
-    - title: Jekyll
+    - title: Jekyl
       url: /jekyll-ssg
     - title: Charts
       url: /charts
@@ -80,7 +80,7 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
 chulapa-skin:
-  skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  skin:  "chulapa" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
     body-bg: "#fbf1ed"
     # font-family-base: "Comic Neue"

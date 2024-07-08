@@ -4,11 +4,11 @@
 
 layout: default-full
 title: "Home"
-subtitle: "un template per i progetti del master SoBigData"
+subtitle: "Birra, Fernandito e Pallone"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/stampo_biscotti.jpg
-header_title: "Progettone Template"
+header_img: assets/images/copas.png
+header_title: "Calcioooooo"
 ---
 
 <div class="container py-3">
@@ -17,8 +17,7 @@ header_title: "Progettone Template"
         </div>
         <div class="col-md-6">
             <hr>
-            <p>Questo template è stato disegnato per realizzare i progettoni del master SoBigData.
-Il template proposto è basato su Bootstrap e Jekyll e include una serie di funzionalità che possono essere utili per la creazione di un sito web.</p>
+            <p> Prova Gruppo 7 Ferne e birra</p>
             <hr>
         </div>
     </div>
