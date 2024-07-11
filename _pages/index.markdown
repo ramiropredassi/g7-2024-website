@@ -29,7 +29,7 @@ header_title: "Calcioooooo"
             {% for image in site.data.home-cards %}
             <div class="card" style="width: 18rem;">
                     <a href="{{site.baseurl}}{{ image.path}}">
-                    <div class="card-img" style="height: 165px" ><img src="{{site.baseurl}}{{ image.url}}" class="card-img-top" alt="{{ image.name }}">
+                    <div class="card-img" ><img src="{{site.baseurl}}{{ image.url}}" class="card-img-top" alt="{{ image.name }}">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{{ image.name }}</h5>
