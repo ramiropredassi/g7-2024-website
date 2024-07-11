@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" >
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
-	<link href="https://danielefadda.github.io/sbd-master-template/atom.xml" rel="self" type="application/atom+xml" />
-	<link href="https://danielefadda.github.io/sbd-master-template" rel="alternate" type="text/html" />
-	<updated>2024-07-05T23:18:54+02:00</updated>
-	<id>https://danielefadda.github.io/sbd-master-template/atom.xml</id>
-	<title>Progettone Template | un template per i progetti del master SoBigData</title>
-	<subtitle>un template per i progetti del master SoBigData</subtitle>
+	<link href="https://ramiropredassi.github.io/g7-2024-website/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="https://ramiropredassi.github.io/g7-2024-website" rel="alternate" type="text/html" />
+	<updated>2024-07-11T16:42:20+02:00</updated>
+	<id>https://ramiropredassi.github.io/g7-2024-website/atom.xml</id>
+	<title>Birra, Fernandito e Pallone | Analisi delle Relazioni Sociali nella piataforma Twitch nel Contesto Calcistico</title>
+	<subtitle>Analisi delle Relazioni Sociali nella piataforma Twitch nel Contesto Calcistico</subtitle>
 	<author>
 		<name></name>
 					
 	</author>
 	<rights>(c) 2024, </rights>
-	<icon>https://danielefadda.github.io/sbd-master-template/assets/images/Logo_masthead.png</icon>
+	<icon>https://ramiropredassi.github.io/g7-2024-website/assets/images/Logo_masthead.png</icon>
 	<logo></logo></feed>
