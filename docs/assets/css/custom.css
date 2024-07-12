@@ -103,11 +103,11 @@
 
 .bg-color-full {
   clip-path: inset(0 -100vmax);
-  box-shadow: 0 0 0 100vmax rgba(243, 173, 149, 0.3);
+  box-shadow: 0 0 0 100vmax rgba(215, 211, 211, 0);
 }
 
 .bg-color {
-  background-color: rgba(243, 173, 149, 0.3);
+  background-color: rgba(215, 211, 211, 0);
 }
 
 iframe {

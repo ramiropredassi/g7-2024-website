@@ -48,8 +48,8 @@ header_title: "Calcioooooo"
         <div class="col-md-3 col-md-offset-3">
         </div>
         <div class="col-md-6">
-            <p>Prima di affrontare la realizzazione del sito è necessario installare Jekyll</p>
-            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">Installazione di Jeykll</a>
+            <p>Bastaaaaaaaaaaaaaa</p>
+            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">Che cosa e il genio</a>
         </div>
     </div>
 </div>
