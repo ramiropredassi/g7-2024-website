@@ -4,25 +4,22 @@
 
 layout: default-full
 title: "Home"
-subtitle: "Birra, Fernandito e Pallone"
+subtitle: "Beer, Fernandito and Football"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/copas.png
-header_title: "Calcioooooo"
+header_img: assets/images/logo intro.png
+header_title: "Birra, Fernandito e Pallone"
 ---
 
-<div class="container py-3">
-    <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-        </div>
-        <div class="col-md-6">
-            <hr>
-            <p> Prova Gruppo 7 Ferne e birra</p>
-            <hr>
-        </div>
-    </div>
-</div>
 
+[//]: # (Why Football section)
+{% capture fulbo_content %}
+    {% include_relative snippets/fulbo.md %}
+{% endcapture %}
+
+{% include one-column.html dimension="small" content=fulbo_content %}
+
+[//]: # (links section)
 <div class="row pb-5">
     <div class="col-md-12 col-sm-12">
         <div class="card-container">
@@ -38,18 +35,6 @@ header_title: "Calcioooooo"
                     </a>    
             </div>
             {% endfor %}
-        </div>
-    </div>
-</div>
-
-
-<div class="container py-3 mb-0 bg-color-full bg-color">
-    <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-        </div>
-        <div class="col-md-6">
-            <p>Bastaaaaaaaaaaaaaa</p>
-            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">Che cosa e il genio</a>
         </div>
     </div>
 </div>

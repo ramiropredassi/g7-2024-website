@@ -1,14 +1,14 @@
 - name: Antonio Federico Barbano
   github: antobarbano
 
-- name: Daniela Lorieri
-  github: DanielaLorieri
-
 - name: Luciana Fazio
   github: LucianaFazio
 
-- name: Miriana Somenzi
-  github: mirianasomenzi
+- name: Daniela Lorieri
+  github: DanielaLorieri
 
 - name: Ramiro Predassi
   github: ramiropredassi
+
+- name: Miriana Somenzi
+  github: mirianasomenzi

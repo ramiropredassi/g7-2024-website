@@ -1,16 +1,16 @@
-- name: Bootstrap
-  url:  "assets/images/bootstrap_t.png"
-  description: "Una panoramica di Bootstrap"
+- name: Introduction
+  url:  "assets/images/twitch_t.png"
+  description: "Everything you need to know about our project"
   path: "bootstrap"
-- name: Jekyll
-  url:  "assets/images/jekyll_t.png"
-  description: "Una panoramica di Jekyll"
+- name: Sentiment Analysis
+  url:  "assets/images/sentiment_t.png"
+  description: "Sentiment Analysis by channel"
   path: "jekyll-ssg"
-- name: Altair Charts
-  url:  "assets/images/altair-gallery_t.png"
-  description: "Come esportare grafici con Altair"
+- name: Graphs
+  url:  "assets/images/graphs_t.png"
+  description: "Graphs for our projec"
   path: "charts"
-- name: Markdown
-  url:  "assets/images/markdown_t.png"
-  description: "Cheatsheet per Markdown e Kramdown"
+- name: Conclusion
+  url:  "assets/images/conclusion_t.png"
+  description: "Conclussion by Fernanditos"
   path: "markdown"

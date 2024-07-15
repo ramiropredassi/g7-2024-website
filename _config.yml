@@ -49,29 +49,14 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Bootstrap
+    - title: Introduction
       url: /bootstrap
-    - title: Jekyl
+    - title: Sentiment Analysis
       url: /jekyll-ssg
-    - title: Charts
+    - title: Graphs
       url: /charts
-    - title: Write first #Label
-      child:
-        - title: markdown cheatsheet #Label
-          url: /markdown  #url
-        - title: kramdown cheatsheet #Label
-          url: /kramdown #url
-    - title: One page demo
-      child:
-        - title: Demo
-          url: /single
-        - title: "Sezione 1" #Label
-          url: /single#sezione-1 #url
-        - title: "Sezione 1.1" #Label
-          url: /single#sezione-11 #url
-        - title: "Sezione 1.2" #Label
-          url: /single#sezione-12 #url
-
+    - title: Conclusion
+      url: /charts
 
 
 googlefonts:
@@ -82,7 +67,7 @@ googlefonts:
 chulapa-skin:
   skin:  "lux" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: "#faf5f5"
+    body-bg: "#d9d9d9"
     # font-family-base: "Comic Neue"
     # headings-font-family: "Lekton"
 

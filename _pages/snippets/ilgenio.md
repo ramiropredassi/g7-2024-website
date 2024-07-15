@@ -1,0 +1,1 @@
+Che cos'è il genio? È fantasia, intuizione, decisione e velocità d'esecuzione
