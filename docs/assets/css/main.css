@@ -241,7 +241,7 @@ body {
   line-height: 1.5;
   color: #55595c;
   text-align: left;
-  background-color: #faf5f5;
+  background-color: #d9d9d9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -653,7 +653,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #faf5f5;
+  background-color: #d9d9d9;
   border: 1px solid #eceeef;
   max-width: 100%;
   height: auto;
@@ -3919,13 +3919,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #faf5f5, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
+  box-shadow: 0 0 0 1px #d9d9d9, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #faf5f5, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
+  box-shadow: 0 0 0 1px #d9d9d9, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #faf5f5, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
+  box-shadow: 0 0 0 1px #d9d9d9, 0 0 0 0.2rem rgba(26, 26, 26, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -4084,8 +4084,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #55595c;
-  background-color: #faf5f5;
-  border-color: #eceeef #eceeef #faf5f5;
+  background-color: #d9d9d9;
+  border-color: #eceeef #eceeef #d9d9d9;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -9449,8 +9449,8 @@ hr {
 }
 
 blockquote {
-  background-color: #f2e4e4;
-  color: #747577;
+  background-color: #cccccc;
+  color: #6d7072;
 }
 
 .footnotes {
@@ -9639,18 +9639,18 @@ a.chulapa-pill-bg-dark:focus, a.chulapa-pill-bg-dark.focus {
 
 .chulapa-pill-bg-body {
   color: #1a1a1a;
-  background-color: #faf5f5;
+  background-color: #d9d9d9;
   border-style: solid;
   border-width: 1px;
   border-color: #1a1a1a;
 }
 a.chulapa-pill-bg-body:hover, a.chulapa-pill-bg-body:focus {
   color: #1a1a1a;
-  background-color: #e9d3d3;
+  background-color: silver;
 }
 a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(250, 245, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(217, 217, 217, 0.5);
 }
 
 .chulapa-text-body-color {
