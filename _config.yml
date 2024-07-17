@@ -56,7 +56,7 @@ navbar:
     - title: Graphs
       url: /charts
     - title: Conclusion
-      url: /charts
+      url: /single
 
 
 googlefonts:

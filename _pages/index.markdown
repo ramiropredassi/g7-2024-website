@@ -12,7 +12,7 @@ header_title: "Birra, Fernandito e Pallone"
 ---
 
 
-[//]: # (Why Football section)
+[//]: # (il team)
 {% capture fulbo_content %}
     {% include_relative snippets/fulbo.md %}
 {% endcapture %}
