@@ -6,19 +6,20 @@
 ### Do you want to know a little more about us?
 
 Our team is made up of five football fanatics!  
- 
-<div class={% if include.container == 'fluid' %}"container-fluid"{% else %}"container"{% endif %}>
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <strong>Nombres:</strong>
-                <p><strong>Antonio:</strong> Italian, Economist, a fan of Inter football club. <img src="assets/images/team.png" alt="Inter Logo" style="width: 50px; height: 30px; vertical-align: middle;"></p>
-                <p><strong>Daniela:</strong> Italian, Tourism, a fan of Juve club. <img src="assets/images/team-4.png" alt="Juve Logo" style="width: 50px; height: 30px; vertical-align: middle;"></p>
-                <p>Miriana: Italian, Computational Language, a fan of Juve club.<img src="assets/images/team-4.png" alt="Juve Logo" style="width: 50px; height: 30px; vertical-align: middle;"></p>
-                <p>Ramiro: Argentinian, Engineer, a fan of River Plate.<img src="assets/images/team-2.png" alt="River Plate Logo" style="width: 50px; height: 30px; vertical-align: middle;"></p>
-                <p>Luciana: Colombian, political scientist, a fan of the Inter football club.<img src="assets/images/team-3.png" alt="Inter Logo" style="width: 50px; height: 30px; vertical-align: middle;"></p>
+
+<div class="container">
+    {% for people in site.data.team %}
+        <div class="row py-2 justify-content-left">
+            <div class="col-2">
+                <img src="{{ people.url_img }}" alt="{{ people.alt }}" style="vertical-align: middle;">
+            </div>
+            <div class="col-10">
+                <p> <strong>{{ people.name }}</strong><br>{{ people.description }}</p>
+            </div>
         </div>
-    </div>
+    {% endfor %}
 </div>
+
 # Why We Have Chosen Football as Our Theme
 
 **Football is the most popular sport in the world, with 5 billion fans according to FIFA (2021).**
