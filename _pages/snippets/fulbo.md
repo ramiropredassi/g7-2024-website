@@ -3,6 +3,12 @@
 
 **We are an interdisciplinary and heterogeneous group with different backgrounds and trajectories but a common passion: football!**
 
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
 ### Do you want to know a little more about us?
 
 Our team is made up of five football fanatics!  
@@ -20,16 +26,23 @@ Our team is made up of five football fanatics!
     {% endfor %}
 </div>
 
-# Why We Have Chosen Football as Our Theme
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
 
-**Football is the most popular sport in the world, with 5 billion fans according to FIFA (2021).**
+### Driven to understand if our friendship story was unique, we found it interesting **to explore whether football is an element of union or division.** 
 
-Through football, various topics are studied such as politics, culture, economics, psychology, tourism, and more. Football allows the examination of multiple aspects of society, such as inclusion, brotherhood, and team spirit (Halldorsson 2018), but also division, rivalry, and violence (Newson 2019).
+Moved to nourish our understanding, we found something amazing: two concepts are associated with this issue in the literature!
+  - Ingroup **[intergroup]**
+  - Outgroup **[‘outside the group’]**
 
-# Why the Comparison Between Italy and Argentina?
+>We saw that these two concepts have something in common: **_IT IS ALL ABOUT GROUPS!_**
+><br>Although we are fans of different football clubs, we share another thing: **_we are not lonely watchers!_**
 
-It is estimated that between 1870 and 1960, over 2 million Italian citizens moved to Argentina. Many Argentine politicians, actors, models, and several sports figures have Italian origins. River Plate, one of the most representative teams in Argentina alongside Boca Juniors, owes its origin to a group of Genoese boys who arrived in Buenos Aires seeking fortune.
-
-# Final Analysis of our work
-
-In our search for the discovery of communities inside the social network Twitch, channels of Twitch where the main topic is Football, we have chosen to analyze both Italy and Argentina due to the cultural and historical relation between the two nations and their known passion for football. This took our project to work with both languages Italian and Spanish to look for insight in our data.
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
