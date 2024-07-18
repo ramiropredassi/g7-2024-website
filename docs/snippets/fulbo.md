@@ -47,4 +47,4 @@ Moved to nourish our understanding, we found something amazing: two concepts are
   <hr class="flex-grow-1">
 </div>
 
-### Keep reading our story to knonw everything we discover.
+### To find out everything we discover, keep reading our story.

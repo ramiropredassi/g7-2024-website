@@ -1,7 +1,7 @@
 - name: Introduction
   url:  "assets/images/twitch_t.png"
   description: "Everything you need to know about our project"
-  path: "bootstrap"
+  path: "twitchsesion"
 - name: Sentiment Analysis
   url:  "assets/images/sentiment_t.png"
   description: "Sentiment Analysis by channel"
