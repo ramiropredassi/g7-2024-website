@@ -20,7 +20,6 @@ header_title: "Birra, Fernandito e Pallone"
 {% include one-column.html dimension="small" content=fulbo_content %}
 
 [//]: # (links section)
-### Keep reading our story to know everything we found out
 
 <div class="row pb-5">
     <div class="col-md-12 col-sm-12">

@@ -46,3 +46,5 @@ Moved to nourish our understanding, we found something amazing: two concepts are
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
   <hr class="flex-grow-1">
 </div>
+
+### Keep reading our story to knonw everything we discover.
