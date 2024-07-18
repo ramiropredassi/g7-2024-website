@@ -38,6 +38,7 @@ Moved to nourish our understanding, we found something amazing: two concepts are
   - Ingroup **[intergroup]**
   - Outgroup **[‘outside the group’]**
 
+
 >We saw that these two concepts have something in common: **_IT IS ALL ABOUT GROUPS!_**
 ><br>Although we are fans of different football clubs, we share another thing: **_we are not lonely watchers!_**
 

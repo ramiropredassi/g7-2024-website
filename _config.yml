@@ -49,9 +49,9 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Introduction
+    - title: Twitch
       url: /bootstrap
-    - title: Sentiment Analysis
+    - title: Sentiments & Emotions
       url: /jekyll-ssg
     - title: Graphs
       url: /charts

@@ -1,10 +1,10 @@
-- name: Introduction
+- name: Twitch
   url:  "assets/images/twitch_t.png"
   description: "Everything you need to know about our project"
   path: "twitchsesion"
-- name: Sentiment Analysis
+- name: Sentiments & Emotions
   url:  "assets/images/sentiment_t.png"
-  description: "Sentiment Analysis by channel"
+  description: "Sentiment & Emotions"
   path: "jekyll-ssg"
 - name: Graphs
   url:  "assets/images/graphs_t.png"
