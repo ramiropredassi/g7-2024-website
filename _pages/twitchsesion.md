@@ -46,18 +46,65 @@ With its 5 billion fans around the world (FIFA 2021), football has become a true
 
 Even if we want to explore what happens in each club, country, and continent, limiting our initial search to two cases, Italy 🇮🇹 and Argentina 🇦🇷, is pertinent.
 <br>Not only do we love ❤️ these countries' football clubs, but they are nations that share a common history despite being separated by the ocean. 
+
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            {% capture whyArgIT %}
+            {% include_relative snippets/whyArgIT.md %}
+            {% endcapture %}
+            {% include modal-component.html title="Why Italy and Argentina" content=whyArgIT id="whyArgIT" size="xl" %}
+        </div>
+    </div>
+</div>
+
 <br>Italians and Argentinians are passionate about football 
-
-{% capture whyArgIT %}
-{% include_relative snippets/whyArgIT.md %}
-{% endcapture %}
-
-{% include modal-component.html title="Why Italy and Argentina" content=whyArgIT id="whyArgIT" size="xl" %}
-
-Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!
-<br>Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.
-- In Argentina, we have focus  in two main channels with the most views in average, between the both they have a stable **87.000 users**; in Italy, there are many more, so we used Twitchmetrics to select the most popular based on the number of views!
+<br>Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!
+<br>Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
+**_In Argentina, we have focus  in two main channels with the most views in average, between the both they have a stable 87.000 users; in Italy, there are many more, so we used Twitchmetrics to select the most popular based on the number of views!_**
+# QUA SI METTENO LE STATISTICHE CANALI?
   - ![BAR CHART](path/to/bar-chart.png)
-- Although the Atlantic geographically separates these two countries, digitality reduces this natural border; thereby, we could see a budding demonstration of our thesis! Football generates a relationship because Italians and Argentines actively participate in channels that do not limit their geographical borders.
-  - ![GRAFICO](path/to/grafico.png)
-- To explore whether our intuition was true in this "digital pub", Twitch, we decided to perform two analyses: sentiment analysis and social network analysis.
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+Although the Atlantic geographically separates these two countries, digitally world reduces this natural border; thereby, we could see a budding demonstration of our thesis!.
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <img src="{{ '/assets/images/distance.png' | relative_url }}" alt="Football" style="width: 715px; height: 405px; margin: 0 10px;">
+        </div>
+    </div>
+</div>
+<br>
+
+#### Football generates a relationship because Italians and Argentines actively participate in channels that do not limit their geographical borders.<br>
+ - this is how are channels interact with each other
+<div class="graph-container mt-1">
+    <iframe src="{{ '/assets/charts/Correlationcountries.html' | relative_url }}" width="100%" height="400px" frameborder="0" allowfullscreen></iframe>
+</div>
+ - In blue Argentinian channels
+ - In green Italian channels
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+### To explore whether our intuition was true in this "digital pub", Twitch, we decided to perform two analyses: sentiment analysis and social network analysis.
+<br>
+Keep reading our story by clicking in the button below or either go to **SENTIMENTS AND EMOTIONS'** section in the navigation bar.
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <!-- Botón que redirige a otra sección del sitio -->
+            <a href="#next-section" class="btn btn-primary">SENTIMENTS & EMOTIONS</a>
+        </div>
+    </div>
+</div>

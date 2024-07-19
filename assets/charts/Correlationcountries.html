@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 400px;
+                 background-color: #bfbfbf;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "008C45", "id": "tvplay", "label": "tvplay", "shape": "dot", "size": 10.80631753948462}, {"color": "008C45", "id": "ACMilan", "label": "ACMilan", "shape": "dot", "size": 10.818307905686545}, {"color": "008C45", "id": "fantacalcio", "label": "fantacalcio", "shape": "dot", "size": 10.79734219269103}, {"color": "008C45", "id": "controcalcio", "label": "controcalcio", "shape": "dot", "size": 10.785398230088495}, {"color": "008C45", "id": "DajeAleOfficial", "label": "DajeAleOfficial", "shape": "dot", "size": 10.80631753948462}, {"color": "008C45", "id": "inter", "label": "inter", "shape": "dot", "size": 10.812309398392015}, {"color": "008C45", "id": "AJGtv", "label": "AJGtv", "shape": "dot", "size": 10.80631753948462}, {"color": "008C45", "id": "houseofcalcio", "label": "houseofcalcio", "shape": "dot", "size": 10.79734219269103}, {"color": "008C45", "id": "Juventibus", "label": "Juventibus", "shape": "dot", "size": 10.785398230088495}, {"color": "008C45", "id": "AssodiRoma", "label": "AssodiRoma", "shape": "dot", "size": 10.76158940397351}, {"color": "008C45", "id": "teladoiotokyo.json", "label": "teladoiotokyo.json", "shape": "dot", "size": 10.812309398392015}, {"color": "#6CACE4", "id": "lacobra", "label": "lacobra", "shape": "dot", "size": 10.821309655937847}, {"color": "008C45", "id": "davo", "label": "davo", "shape": "dot", "size": 0.8379888268156424}, {"color": "008C45", "id": "OCW_Sport", "label": "OCW_Sport", "shape": "dot", "size": 10.76158940397351}]);
+                  edges = new vis.DataSet([{"from": "tvplay", "label": 2, "to": "ACMilan"}, {"from": "tvplay", "label": 2, "to": "fantacalcio"}, {"from": "tvplay", "label": 24, "to": "controcalcio"}, {"from": "tvplay", "label": 33, "to": "DajeAleOfficial"}, {"from": "tvplay", "label": 1, "to": "inter"}, {"from": "tvplay", "label": 4, "to": "AJGtv"}, {"from": "tvplay", "label": 1, "to": "houseofcalcio"}, {"from": "tvplay", "label": 4, "to": "Juventibus"}, {"from": "tvplay", "label": 35, "to": "AssodiRoma"}, {"from": "tvplay", "label": 7, "to": "teladoiotokyo.json"}, {"from": "tvplay", "label": 100, "to": "OCW_Sport"}, {"from": "ACMilan", "label": 4, "to": "controcalcio"}, {"from": "ACMilan", "label": 2, "to": "DajeAleOfficial"}, {"from": "ACMilan", "label": 6, "to": "AssodiRoma"}, {"from": "ACMilan", "label": 1, "to": "teladoiotokyo.json"}, {"from": "ACMilan", "label": 1, "to": "lacobra"}, {"from": "ACMilan", "label": 21, "to": "OCW_Sport"}, {"from": "fantacalcio", "label": 170, "to": "controcalcio"}, {"from": "fantacalcio", "label": 2, "to": "DajeAleOfficial"}, {"from": "fantacalcio", "label": 2, "to": "AJGtv"}, {"from": "fantacalcio", "label": 2, "to": "Juventibus"}, {"from": "fantacalcio", "label": 3, "to": "AssodiRoma"}, {"from": "fantacalcio", "label": 1, "to": "teladoiotokyo.json"}, {"from": "fantacalcio", "label": 19, "to": "OCW_Sport"}, {"from": "controcalcio", "label": 92, "to": "DajeAleOfficial"}, {"from": "controcalcio", "label": 2, "to": "inter"}, {"from": "controcalcio", "label": 9, "to": "AJGtv"}, {"from": "controcalcio", "label": 4, "to": "Juventibus"}, {"from": "controcalcio", "label": 152, "to": "AssodiRoma"}, {"from": "controcalcio", "label": 6, "to": "teladoiotokyo.json"}, {"from": "controcalcio", "label": 1, "to": "lacobra"}, {"from": "controcalcio", "label": 371, "to": "OCW_Sport"}, {"from": "DajeAleOfficial", "label": 2, "to": "AJGtv"}, {"from": "DajeAleOfficial", "label": 3, "to": "Juventibus"}, {"from": "DajeAleOfficial", "label": 360, "to": "AssodiRoma"}, {"from": "DajeAleOfficial", "label": 9, "to": "teladoiotokyo.json"}, {"from": "DajeAleOfficial", "label": 1, "to": "lacobra"}, {"from": "DajeAleOfficial", "label": 296, "to": "OCW_Sport"}, {"from": "inter", "label": 2, "to": "AJGtv"}, {"from": "inter", "label": 3, "to": "AssodiRoma"}, {"from": "inter", "label": 1, "to": "lacobra"}, {"from": "inter", "label": 16, "to": "OCW_Sport"}, {"from": "AJGtv", "label": 1, "to": "houseofcalcio"}, {"from": "AJGtv", "label": 10, "to": "Juventibus"}, {"from": "AJGtv", "label": 6, "to": "AssodiRoma"}, {"from": "AJGtv", "label": 1, "to": "teladoiotokyo.json"}, {"from": "AJGtv", "label": 70, "to": "OCW_Sport"}, {"from": "houseofcalcio", "label": 1, "to": "OCW_Sport"}, {"from": "Juventibus", "label": 3, "to": "AssodiRoma"}, {"from": "Juventibus", "label": 1, "to": "teladoiotokyo.json"}, {"from": "Juventibus", "label": 24, "to": "OCW_Sport"}, {"from": "AssodiRoma", "label": 12, "to": "teladoiotokyo.json"}, {"from": "AssodiRoma", "label": 2, "to": "lacobra"}, {"from": "AssodiRoma", "label": 665, "to": "OCW_Sport"}, {"from": "teladoiotokyo.json", "label": 17, "to": "OCW_Sport"}, {"from": "lacobra", "label": 3578, "to": "davo"}, {"from": "lacobra", "label": 6, "to": "OCW_Sport"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
