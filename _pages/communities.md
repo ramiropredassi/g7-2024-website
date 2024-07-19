@@ -1,0 +1,79 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title:  "Communities"
+subtitle: "An insight of communities inside twitch channels"
+show_sidetoc: true
+header_type: hero #base, post, hero,image, splash
+header_img: assets/images/Inside_Out_film_2015.jpg
+header_title: "Communities"
+---
+
+## Have you thought that the tone could be related to the people you interact with and the community structure?   
+ - We, too! For this reason, we decided to study the social balance of our channels to identify if communities were created behind the platform and of what nature (positive, negative)!
+ - QUA METTERE GRAFOS, PARLARE DI SOCIAL BALANCE, ETC.
+<br>
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+Apart from exploring what individual people think, we wanted to explore their interactions to see if communities are also created (or divided) around football in the digital world!<br>
+##### Social balance a few immages of triads
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+## Statistiche grafi
+Statistiche sentiment (neutro, positivo, negaticoo per canale) - grafo bar chart fatto per frequenze di messagi
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+
+# Raccontare i risultati per canale 
+
+
+possiamo mettere grafo come quelli che cambia il grafo clickando sul bottone
+
+<br>Italians and Argentinians are passionate about football 
+Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!.
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+## grafo antonio dani altair normalize emotions: 
+
+We noticed that channels ** ** ** present high "joy" levels while like *** ** present more "anger" levels. 
+
+
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+### This brings us back to our initial question: Does football unite or divide? This is why we wanted to deepen our analysis by identifying "friendly" or "enemy" communities within the channels.
+<br>
+Keep reading our story by clicking in the button below or either go to **Communities** section in the navigation bar.
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <!-- NEXT PAGE BUTTON -->
+            <a href="#next-section" class="btn btn-primary">CONCLUSION</a>
+        </div>
+    </div>
+</div>

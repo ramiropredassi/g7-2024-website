@@ -60,11 +60,31 @@ Even if we want to explore what happens in each club, country, and continent, li
 </div>
 
 <br>Italians and Argentinians are passionate about football 
-<br>Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!
-<br>Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
-**_In Argentina, we have focus  in two main channels with the most views in average, between the both they have a stable 87.000 users; in Italy, there are many more, so we used Twitchmetrics to select the most popular based on the number of views!_**
-# QUA SI METTENO LE STATISTICHE CANALI?
-  - ![BAR CHART](path/to/bar-chart.png)
+Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!.
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
+**_In Argentina, we have focus in two main channels while in Italy, there are many more, so we used Twitchmetrics to select the most popular based on the number of views!_**
+## Messages analyzed by language: 
+<!-- table with statistics -->
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover" style="font-size: 25px;">
+          <tr>
+            <td>2.5 Millions (Spanish)</td>
+            <td>1.5 Millions (Italian)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
@@ -87,8 +107,7 @@ Although the Atlantic geographically separates these two countries, digitally wo
 <div class="graph-container mt-1">
     <iframe src="{{ '/assets/charts/Correlationcountries.html' | relative_url }}" width="100%" height="400px" frameborder="0" allowfullscreen></iframe>
 </div>
- - In blue Argentinian channels
- - In green Italian channels
+ - In blue Argentinian channels. In green Italian channels
 
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">

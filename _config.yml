@@ -50,13 +50,13 @@ navbar:
     url: /
   nav:
     - title: Twitch
-      url: /bootstrap
+      url: /twitchsesion
     - title: Sentiments & Emotions
-      url: /jekyll-ssg
-    - title: Graphs
-      url: /charts
+      url: /sentiment&emotion
+    - title: Communities
+      url: /communities
     - title: Conclusion
-      url: /single
+      url: /conclusion
 
 
 googlefonts:
