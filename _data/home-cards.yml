@@ -5,12 +5,12 @@
 - name: Sentiments & Emotions
   url:  "assets/images/sentiment_t.png"
   description: "Sentiment & Emotions"
-  path: "jekyll-ssg"
-- name: Graphs
+  path: "sentiment&emotion"
+- name: Communities
   url:  "assets/images/graphs_t.png"
-  description: "Graphs for our projec"
-  path: "charts"
+  description: "Communities"
+  path: "communities"
 - name: Conclusion
   url:  "assets/images/conclusion_t.png"
-  description: "Conclussion by Fernanditos"
-  path: "markdown"
+  description: "Conclusion by Fernanditos"
+  path: "conclusion"

@@ -118,4 +118,9 @@ iframe {
   transform: scale(1, 1) !important;
 }
 
+/* hide Id */
+[id^=hide-] {
+  display: none;
+}
+
 /*# sourceMappingURL=custom.css.map */

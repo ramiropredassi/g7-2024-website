@@ -19,6 +19,7 @@ header_title: "Twitch"
 
 #### **_We all love to do that, so we used to watch our favourite matches in a pub!_**
 
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -29,6 +30,7 @@ The new technologies have contributed to bringing these experiences to the comfo
 ##### **_Twitch_** is an interactive streaming service that, in addition to exploring opinion threads, allows us to capture user interactions – even if people are in different parts of the world!
 >Encouraged to understand if football is an element of union or division, we found it interesting to explore how communities grew up on Twitch, how they interact, and how they influence each other.
 
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -38,6 +40,7 @@ The new technologies have contributed to bringing these experiences to the comfo
 ## Why football? Besides our passion for this sport, this is also the most popular sport today!
 With its 5 billion fans around the world (FIFA 2021), football has become a true social phenomenon that can be studied from different points of view. This discipline can also analyse different aspects of society.
 
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -47,7 +50,7 @@ With its 5 billion fans around the world (FIFA 2021), football has become a true
 Even if we want to explore what happens in each club, country, and continent, limiting our initial search to two cases, Italy 🇮🇹 and Argentina 🇦🇷, is pertinent.
 <br>Not only do we love ❤️ these countries' football clubs, but they are nations that share a common history despite being separated by the ocean. 
 
-
+<!-- Button to see historical connections between italy and Argentina -->
 <div class="container mt-3">
     <div class="row justify-content-center">
         <div class="col-auto">
@@ -61,6 +64,8 @@ Even if we want to explore what happens in each club, country, and continent, li
 
 <br>Italians and Argentinians are passionate about football 
 Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!.
+
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -70,6 +75,7 @@ Both countries also share common historical roots, and there are numerous exampl
 Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
 **_In Argentina, we have focus in two main channels while in Italy, there are many more, so we used Twitchmetrics to select the most popular based on the number of views!_**
 ## Messages analyzed by language: 
+
 <!-- table with statistics -->
 <div class="container mt-3">
   <div class="row justify-content-center">
@@ -86,6 +92,7 @@ Although they share a similar football history, Twitch dynamics are not the same
   </div>
 </div>
 
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -93,6 +100,8 @@ Although they share a similar football history, Twitch dynamics are not the same
 </div>
 
 Although the Atlantic geographically separates these two countries, digitally world reduces this natural border; thereby, we could see a budding demonstration of our thesis!.
+
+<!-- Distance map -->
 <div class="container mt-3">
     <div class="row justify-content-center">
         <div class="col-auto">
@@ -102,13 +111,28 @@ Although the Atlantic geographically separates these two countries, digitally wo
 </div>
 <br>
 
-#### Football generates a relationship because Italians and Argentines actively participate in channels that do not limit their geographical borders.<br>
- - this is how are channels interact with each other
+#### FOOTBALL GENERATES A RELATIONSHIP AS ITALIANS AND ARGENTINES ACTUALLY PARTICIPATE IN CHANNELS THAT DO NOT LIMIT THIER GEOGRAPHICAL BORDERS.<br>
+
+<!-- Button to see heatmap of interactions -->
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            {% capture correlations %}
+            {% include_relative snippets/correlations.md %}
+            {% endcapture %}
+            {% include modal-component.html title="Interactions between channels" content=correlations id="correlations" size="xl" %}
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- Pyvis interaction graph -->
 <div class="graph-container mt-1">
     <iframe src="{{ '/assets/charts/Correlationcountries.html' | relative_url }}" width="100%" height="400px" frameborder="0" allowfullscreen></iframe>
 </div>
  - In blue Argentinian channels. In green Italian channels
 
+<!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
   <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
@@ -117,13 +141,13 @@ Although the Atlantic geographically separates these two countries, digitally wo
 
 ### To explore whether our intuition was true in this "digital pub", Twitch, we decided to perform two analyses: sentiment analysis and social network analysis.
 <br>
-Keep reading our story by clicking in the button below or either go to **SENTIMENTS AND EMOTIONS'** section in the navigation bar.
+Keep reading our story by clicking the button below or either go to **SENTIMENTS AND EMOTIONS** section in the navigation bar.
 
 <div class="container mt-3">
     <div class="row justify-content-center">
         <div class="col-auto">
-            <!-- Botón que redirige a otra sección del sitio -->
-            <a href="#next-section" class="btn btn-primary">SENTIMENTS & EMOTIONS</a>
+            <!-- Button to next section -->
+            <a href="sentiment&emotion#Sentiments & Emotions" class="btn btn-primary">SENTIMENTS & EMOTIONS</a>
         </div>
     </div>
 </div>

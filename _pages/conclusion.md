@@ -10,6 +10,7 @@ header_type: hero #base, post, hero,image, splash
 header_img: assets/images/Inside_Out_film_2015.jpg
 header_title: "Conclusions"
 ---
+# conclusion {#hide-conclusion}
 
 ## Conclusion of our work
  - raccontare il finale della storia
@@ -39,10 +40,12 @@ header_title: "Conclusions"
 <div class="container mt-3">
     <div class="row justify-content-center">
         <div class="col-auto">
-            {% capture ilgenio %}
-            {% include_relative snippets/ilgenio.md %}
-            {% endcapture %}
-            {% include one-column.html dimension="small" content=ilgenio %}
+            <a href="https://www.youtube.com/watch?v=Sp8wpps5F5E&t=0s" 
+               class="btn btn-primary" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               Cos'è Il Genio?
+            </a>
         </div>
     </div>
 </div>
