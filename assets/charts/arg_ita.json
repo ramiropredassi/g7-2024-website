@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-3f1f1c2e6fd00ff21dc12fe4b9ce2515": [
+      {
+        "lat": -34.6037,
+        "lon": -58.3816
+      },
+      {
+        "lat": 41.9028,
+        "lon": 12.4964
+      }
+    ],
+    "data-cdd430a7eb3c914e4738e275d28cc64c": [
+      {
+        "lat": 3.649549999999998,
+        "lon": -22.9426,
+        "text": "11778 km (approx.)"
+      }
+    ],
+    "data-fe85b345c9351316765d5f36f8d964a7": [
+      {
+        "country": "Argentina",
+        "lat": -34.6037,
+        "lon": -58.3816
+      },
+      {
+        "country": "Italy",
+        "lat": 41.9028,
+        "lon": 12.4964
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "data": {
+        "format": {
+          "feature": "countries",
+          "type": "topojson"
+        },
+        "url": "https://vega.github.io/vega-datasets/data/world-110m.json"
+      },
+      "mark": {
+        "fill": "lightgray",
+        "stroke": "white",
+        "type": "geoshape"
+      },
+      "projection": {
+        "type": "mercator"
+      }
+    },
+    {
+      "data": {
+        "name": "data-3f1f1c2e6fd00ff21dc12fe4b9ce2515"
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "color": "red",
+        "type": "line"
+      }
+    },
+    {
+      "data": {
+        "name": "data-fe85b345c9351316765d5f36f8d964a7"
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal"
+          }
+        ]
+      },
+      "mark": {
+        "color": "red",
+        "size": 100,
+        "type": "point"
+      }
+    },
+    {
+      "data": {
+        "name": "data-cdd430a7eb3c914e4738e275d28cc64c"
+      },
+      "encoding": {
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      },
+      "mark": {
+        "align": "left",
+        "color": "black",
+        "dx": 5,
+        "dy": -5,
+        "type": "text"
+      }
+    }
+  ],
+  "width": "container"
+}

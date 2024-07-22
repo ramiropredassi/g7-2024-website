@@ -8,7 +8,7 @@ subtitle: ""
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/Inside_Out_film_2015.jpg
-header_title: "Conclusions"
+header_title: "Conclusion"
 ---
 # conclusion {#hide-conclusion}
 

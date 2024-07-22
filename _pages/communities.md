@@ -7,12 +7,12 @@ title:  "Communities"
 subtitle: "An insight of communities inside twitch channels"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/Inside_Out_film_2015.jpg
+header_img: assets/images/graph.png
 header_title: "Communities"
 ---
 # communities {#hide-communities}
 
-## Have you thought that the tone could be related to the people you interact with and the community structure?   
+## ●	Have you thought the tone could relate to the people you interact with and the community structure?   
  - We, too! For this reason, we decided to study the social balance of our channels to identify if communities were created behind the platform and of what nature (positive, negative)!
  - QUA METTERE GRAFOS, PARLARE DI SOCIAL BALANCE, ETC.
 <br>
