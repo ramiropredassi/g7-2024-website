@@ -1,0 +1,32 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-163ae0e1ae36de88d22a0d7adbc0ca3c"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most Frequent Words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-163ae0e1ae36de88d22a0d7adbc0ca3c": [
+      {"word": "pancio", "count": 7715},
+      {"word": "manfredi", "count": 4939},
+      {"word": "sciscione", "count": 4463},
+      {"word": "solo", "count": 3862},
+      {"word": "roma", "count": 3831},
+      {"word": "fatto", "count": 3682},
+      {"word": "pino", "count": 3336},
+      {"word": "milan", "count": 3241},
+      {"word": "sempre", "count": 3225},
+      {"word": "grande", "count": 3178},
+      {"word": "vitale", "count": 3114},
+      {"word": "cosa", "count": 3026},
+      {"word": "theyve", "count": 2865},
+      {"word": "fare", "count": 2640},
+      {"word": "asso", "count": 2535},
+      {"word": "quando", "count": 2447}
+    ]
+  }
+}

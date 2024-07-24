@@ -9,17 +9,19 @@ show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/emotions.png
 header_title: "Sentiments & Emotions"
+vega: true
 ---
 # Sentiments & Emotions {#hide-sentiments-emotions}
 
-## Have you ever wondered how the tone of the football community to which you belong is? So do we! 
- - We looked at the frequency of words with which football comments are spread. We were amazed to see that the most common words are:
-<br> GRAFO MOST FREQUENT WORDS
-<!-- Sentiments statistics  -->
-##### Sentiment by channel
-<img src="{{ '/assets/images/SentimentTestoAggregato.png' | relative_url }}" alt="Italian" class="img-fluid" style="max-width: 100%; height: auto;">
-<br>
+## have you ever wondered how the tone of the football community you belong to is? 
+ - We looked at the frequency of words with which football comments are spread.
+<!-- Most frequent words -->
+{% include one-column.html dimension="medium" title="We were amazed to see that the most common words are:" %}
+{% include chart-selector.html dimension="medium" dataset="most_frequents" %}
 
+>Among the most common words of all channels we note, as it could be expected, football clubs’ names, both national and international ( such as Juve, Intern, Milan, Napoli, Bologna, Bayern, Roma, Lazio etc.). We can also observe a lot of proper names and nicknames: this recalls our comparison between Twitch and a “digital pub”, an online space where you can find fellow football fans from all over the world and chat with them. Furthermore it can be seen that the tone is mostly positive, with people supporting their teams and laughing.<
+
+Apart from exploring what individual people write, we wanted to check their interactions to see if communities are also created (or divided) around football in the digital world!
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">
   <hr class="flex-grow-1">
@@ -27,8 +29,18 @@ header_title: "Sentiments & Emotions"
   <hr class="flex-grow-1">
 </div>
 
-Apart from exploring what individual people think, we wanted to explore their interactions to see if communities are also created (or divided) around football in the digital world!<br>
-##### We used **_Pysentimiento,_** which allowed us to analyse without the limitation of language; it is wonderful that communities can be united despite speaking different languages!
+##### We used **_Pysentimiento,_** which allowed us to analyse both languages without the limitation of language; it is wonderful that communities can be united despite speaking different languages!
+<!-- Sentiments statistics  -->
+## Sentiment statistics
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PERCENTUALE SENTIMENT ITA.json" style="width: 100%"></vegachart>
+- Italian channels.
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PERCENTUALE SENTIMENT ARG.json" style="width: 100%"></vegachart>
+- Argentinian channels.
+
+
+
+Accordingly, if we look at the tone of the channels, the Argentinian ones seem to be more negative than positive, with the majority of messages being labeled as neutral, while the Italian channels are balanced between the two sentiments.
+<br> In addition, there is more variability inside the Italian channels with respect to Argentinian ones.
 
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">
@@ -38,44 +50,31 @@ Apart from exploring what individual people think, we wanted to explore their in
 </div>
 
 ## Emotion statistics
+
+Since we have six emotions for the Spanish language and four for the Italian, we plot the results into two different graphs.
+
 <!-- Creating list with colors representing emotions -->
 <div class="container mt-4">
   <ul class="list-group">
-    <li class="list-group-item list-group-item-info">
-      Since we have six emotions for the Spanish language and four for the Italian, we plot the results into two different graphs.
-    </li>
     <li class="list-group-item list-group-item-warning">
-      The following channels tend to present high "joy" levels: AJGtv, AssoDiRoma, FantaCalcio, Inter, Milan, and OCWSport.
+      We noticed that the following channels, AJGtv, Inter, Milan, and OCWSport, tend to present higher "joy" levels.
     </li>
     <li class="list-group-item list-group-item-danger">
-      In contrast, the following channels tend to show higher "anger" levels: Controcalcio, HouseofCalcio, Juventibus, TeladoioTokyo, and TVPlay.
+      In contrast, the remaining channels(Controcalcio, HouseofCalcio, Juventibus, TeladoioTokyo, Assodiroma, daje, Fantacalcio, TVPlay) tend to show higher "anger" levels.
     </li>
     <li class="list-group-item list-group-item-success">
-      The Argentinean channel Davoo tends to present high levels of ‘disgusts’ while La Cobra both' disgust’ and ‘joy’.
+      The Argentinian channel Davoo tends to present high levels of ‘joy’ while La Cobra both 'disgust’ and ‘joy’.
+    </li>
+    <li class="list-group-item list-group-item-info">
+      It is interesting also to see the scarcity of “sadness” as a negative emotion: people tend to be more angry than sad while discussing football.
     </li>
   </ul>
 </div>
 <br>
-<!-- Images of emotion_statistics -->
-<img src="{{ '/assets/images/Mark_Point.png' | relative_url }}" alt="Italian" class="img-fluid" style="max-width: 100%; height: auto;">
-
-<img src="{{ '/assets/images/mark_circleARG.png' | relative_url }}" alt="Argentinian" class="img-fluid" style="max-width: 100%; height: auto;">
-
-<!-- Section separator -->
-<div class="d-flex align-items-center my-4">
-  <hr class="flex-grow-1">
-  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
-  <hr class="flex-grow-1">
-</div>
-
-
-# Raccontare i risultati per canale 
-
-
-possiamo mettere grafo come quelli che cambia il grafo clickando sul bottone
-
-<br>Italians and Argentinians are passionate about football 
-Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!.
+<!-- emotion_statistics charts -->
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PERCENTUALE EMOTION ITA.json" style="width: 100%"></vegachart>
+<br>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/PERCENTUALE EMOTION ARG.json" style="width: 100%"></vegachart>
 
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">

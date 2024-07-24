@@ -1,0 +1,60 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "strokeOpacity": 0
+    },
+    "axis": {"labelFontSize": 12, "titleFontSize": 14},
+    "legend": {"labelFontSize": 12, "titleFontSize": 14},
+    "title": {"anchor": "start", "color": "gray", "fontSize": 20}
+  },
+  "data": {"name": "data-8e8c75d597f2c054aea021364b840529"},
+  "mark": {"type": "bar", "cornerRadius": 10},
+  "encoding": {
+    "color": {
+      "condition": {"test": "(datum.Assortativity >= 0)", "value": "#4c78a8"},
+      "value": "#e45756"
+    },
+    "tooltip": [
+      {"field": "Channels", "type": "nominal"},
+      {"field": "Assortativity", "type": "quantitative"}
+    ],
+    "x": {
+      "axis": {"labelAngle": -45},
+      "field": "Channels",
+      "title": "Channels",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Assortativity",
+      "scale": {"domain": [-0.2, 0.2], "zero": true},
+      "title": "Assortativity",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": {
+    "text": "Assortativity Coefficients of Networks",
+    "anchor": "middle",
+    "fontSize": 18
+  },
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-8e8c75d597f2c054aea021364b840529": [
+      {"Channels": "ACMilan ", "Assortativity": 0.10799507995079952},
+      {"Channels": "AJGtv", "Assortativity": 0.05922551252847378},
+      {"Channels": "AssodiRoma", "Assortativity": 0.09976234168647156},
+      {"Channels": "FantaCalcio", "Assortativity": -0.15414780221738983},
+      {"Channels": "Inter", "Assortativity": 0.16071428571428575},
+      {"Channels": "TVPlay", "Assortativity": 0.04617553753965451},
+      {"Channels": "ControCalcio", "Assortativity": -0.19860900008228144},
+      {"Channels": "Daje", "Assortativity": -0.041448803628934494},
+      {"Channels": "HouseofCalcio", "Assortativity": 0},
+      {"Channels": "Teladoiotokyo", "Assortativity": 0.07178464606181442},
+      {"Channels": "Juventibus", "Assortativity": 0.08770383428823257},
+      {"Channels": "OCW", "Assortativity": 0.03080438844825411}
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "config": {
+    "view": {"continuousWidth": 300, "continuousHeight": 300},
+    "axis": {"labelAngle": 45},
+    "title": {"anchor": "start", "color": "black", "fontSize": 16}
+  },
+  "data": {"name": "data-4dc9843a597e9dd9a3f5290f5f164571"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {
+      "field": "Sentimento",
+      "scale": {
+        "domain": ["NEG", "NEU", "POS"],
+        "range": ["#e45756", "#D7D8D7", "#4c78a8"]
+      },
+      "type": "nominal"
+    },
+    "order": {"field": "Sentimento", "sort": "ascending", "type": "nominal"},
+    "tooltip": [
+      {"field": "Categoria", "type": "nominal"},
+      {"field": "Sentimento", "type": "nominal"},
+      {"field": "Percentuale", "type": "quantitative"}
+    ],
+    "x": {"field": "Categoria", "title": "Categoria", "type": "nominal"},
+    "y": {
+      "field": "Percentuale",
+      "title": "Percentuale di Sentimenti",
+      "type": "quantitative"
+    }
+  },
+  "title": "Distribuzione Percentuale del Sentimento per Categoria",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-4dc9843a597e9dd9a3f5290f5f164571": [
+      {
+        "Sentimento": "NEU",
+        "Categoria": "Davo",
+        "Numero": 48715,
+        "Totale": 62935,
+        "Percentuale": 77.4052593946135
+      },
+      {
+        "Sentimento": "NEG",
+        "Categoria": "Davo",
+        "Numero": 9304,
+        "Totale": 62935,
+        "Percentuale": 14.783506792722651
+      },
+      {
+        "Sentimento": "POS",
+        "Categoria": "Davo",
+        "Numero": 4916,
+        "Totale": 62935,
+        "Percentuale": 7.811233812663859
+      },
+      {
+        "Sentimento": "NEU",
+        "Categoria": "LaCobra",
+        "Numero": 2061883,
+        "Totale": 2537923,
+        "Percentuale": 81.24292975003576
+      },
+      {
+        "Sentimento": "NEG",
+        "Categoria": "LaCobra",
+        "Numero": 294597,
+        "Totale": 2537923,
+        "Percentuale": 11.60779897577665
+      },
+      {
+        "Sentimento": "POS",
+        "Categoria": "LaCobra",
+        "Numero": 181443,
+        "Totale": 2537923,
+        "Percentuale": 7.149271274187593
+      }
+    ]
+  }
+}

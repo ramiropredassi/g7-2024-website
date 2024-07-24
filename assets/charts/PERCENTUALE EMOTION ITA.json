@@ -1,0 +1,374 @@
+{
+  "config": {
+    "view": {"continuousWidth": 300, "continuousHeight": 300},
+    "axis": {"labelAngle": 45},
+    "title": {"anchor": "start", "color": "black", "fontSize": 16}
+  },
+  "data": {"name": "data-c3474c7d1a50bddcc19388d430de0f85"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {
+      "field": "Sentimento",
+      "scale": {
+        "domain": ["anger", "fear", "sadness", "joy"],
+        "range": ["#e45756", "#4c78a8", "#72b7b2", "#f58518"]
+      },
+      "type": "nominal"
+    },
+    "order": {"field": "Sentimento", "sort": "ascending", "type": "nominal"},
+    "tooltip": [
+      {"field": "Categoria", "type": "nominal"},
+      {"field": "Sentimento", "type": "nominal"},
+      {"field": "Percentuale", "type": "quantitative"}
+    ],
+    "x": {"field": "Categoria", "title": "Categoria", "type": "nominal"},
+    "y": {
+      "field": "Percentuale",
+      "title": "Percentuale di Sentimenti",
+      "type": "quantitative"
+    }
+  },
+  "title": "Distribuzione Percentuale delle Emotions per Categoria",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-c3474c7d1a50bddcc19388d430de0f85": [
+      {
+        "Sentimento": "joy",
+        "Categoria": "Inter",
+        "Numero": 178,
+        "Totale": 307,
+        "Percentuale": 57.98045602605863
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Inter",
+        "Numero": 96,
+        "Totale": 307,
+        "Percentuale": 31.27035830618892
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Inter",
+        "Numero": 28,
+        "Totale": 307,
+        "Percentuale": 9.120521172638437
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Inter",
+        "Numero": 5,
+        "Totale": 307,
+        "Percentuale": 1.6286644951140066
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "ACMilan",
+        "Numero": 2072,
+        "Totale": 3436,
+        "Percentuale": 60.30267753201397
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "ACMilan",
+        "Numero": 1120,
+        "Totale": 3436,
+        "Percentuale": 32.596041909196735
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "ACMilan",
+        "Numero": 216,
+        "Totale": 3436,
+        "Percentuale": 6.286379511059372
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "ACMilan",
+        "Numero": 28,
+        "Totale": 3436,
+        "Percentuale": 0.8149010477299184
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "TVPlay",
+        "Numero": 938,
+        "Totale": 2642,
+        "Percentuale": 35.503406510219534
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "TVPlay",
+        "Numero": 1443,
+        "Totale": 2642,
+        "Percentuale": 54.61771385314156
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "TVPlay",
+        "Numero": 233,
+        "Totale": 2642,
+        "Percentuale": 8.819076457229372
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "TVPlay",
+        "Numero": 28,
+        "Totale": 2642,
+        "Percentuale": 1.0598031794095382
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "AJGTv",
+        "Numero": 1435,
+        "Totale": 2862,
+        "Percentuale": 50.139762403913345
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "AJGTv",
+        "Numero": 1077,
+        "Totale": 2862,
+        "Percentuale": 37.63102725366876
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "AJGTv",
+        "Numero": 315,
+        "Totale": 2862,
+        "Percentuale": 11.0062893081761
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "AJGTv",
+        "Numero": 35,
+        "Totale": 2862,
+        "Percentuale": 1.2229210342417889
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "Asso di Roma",
+        "Numero": 4671,
+        "Totale": 12019,
+        "Percentuale": 38.863466178550624
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Asso di Roma",
+        "Numero": 5986,
+        "Totale": 12019,
+        "Percentuale": 49.804476245943924
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Asso di Roma",
+        "Numero": 1210,
+        "Totale": 12019,
+        "Percentuale": 10.067393293951243
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Asso di Roma",
+        "Numero": 152,
+        "Totale": 12019,
+        "Percentuale": 1.264664281554206
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "Controcalcio",
+        "Numero": 2759,
+        "Totale": 6107,
+        "Percentuale": 45.17766497461929
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Controcalcio",
+        "Numero": 2765,
+        "Totale": 6107,
+        "Percentuale": 45.27591288685115
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Controcalcio",
+        "Numero": 531,
+        "Totale": 6107,
+        "Percentuale": 8.694940232520059
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Controcalcio",
+        "Numero": 52,
+        "Totale": 6107,
+        "Percentuale": 0.8514819060094972
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "Fantacalcio",
+        "Numero": 637,
+        "Totale": 1641,
+        "Percentuale": 38.817794028031685
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Fantacalcio",
+        "Numero": 786,
+        "Totale": 1641,
+        "Percentuale": 47.89762340036563
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Fantacalcio",
+        "Numero": 207,
+        "Totale": 1641,
+        "Percentuale": 12.614259597806216
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Fantacalcio",
+        "Numero": 11,
+        "Totale": 1641,
+        "Percentuale": 0.6703229737964655
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "House of Calcio",
+        "Numero": 57,
+        "Totale": 133,
+        "Percentuale": 42.857142857142854
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "House of Calcio",
+        "Numero": 58,
+        "Totale": 133,
+        "Percentuale": 43.609022556390975
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "House of Calcio",
+        "Numero": 17,
+        "Totale": 133,
+        "Percentuale": 12.781954887218044
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "House of Calcio",
+        "Numero": 1,
+        "Totale": 133,
+        "Percentuale": 0.7518796992481203
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "Juventibus",
+        "Numero": 1071,
+        "Totale": 3461,
+        "Percentuale": 30.944813637676972
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Juventibus",
+        "Numero": 1788,
+        "Totale": 3461,
+        "Percentuale": 51.661369546373884
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Juventibus",
+        "Numero": 530,
+        "Totale": 3461,
+        "Percentuale": 15.313493210054899
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Juventibus",
+        "Numero": 72,
+        "Totale": 3461,
+        "Percentuale": 2.0803236058942502
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 687,
+        "Totale": 2025,
+        "Percentuale": 33.925925925925924
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 1107,
+        "Totale": 2025,
+        "Percentuale": 54.666666666666664
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 207,
+        "Totale": 2025,
+        "Percentuale": 10.222222222222223
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 24,
+        "Totale": 2025,
+        "Percentuale": 1.1851851851851851
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "OCW_Sport",
+        "Numero": 166591,
+        "Totale": 347722,
+        "Percentuale": 47.90924934286585
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "OCW_Sport",
+        "Numero": 141933,
+        "Totale": 347722,
+        "Percentuale": 40.81795227221746
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "OCW_Sport",
+        "Numero": 35700,
+        "Totale": 347722,
+        "Percentuale": 10.266822346587217
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "OCW_Sport",
+        "Numero": 3498,
+        "Totale": 347722,
+        "Percentuale": 1.00597603832947
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "Daje",
+        "Numero": 3027,
+        "Totale": 6839,
+        "Percentuale": 44.26085685041673
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Daje",
+        "Numero": 3029,
+        "Totale": 6839,
+        "Percentuale": 44.29010089194327
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Daje",
+        "Numero": 670,
+        "Totale": 6839,
+        "Percentuale": 9.796753911390555
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Daje",
+        "Numero": 113,
+        "Totale": 6839,
+        "Percentuale": 1.6522883462494518
+      }
+    ]
+  }
+}

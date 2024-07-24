@@ -1,0 +1,32 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-999ab6f1da3e626b1e93b8013f5b766c"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-999ab6f1da3e626b1e93b8013f5b766c": [
+      {"word": "forza", "count": 27},
+      {"word": "inter", "count": 25},
+      {"word": "ciao", "count": 8},
+      {"word": "grazie", "count": 7},
+      {"word": "interr", "count": 6},
+      {"word": "fare", "count": 6},
+      {"word": "dopo", "count": 5},
+      {"word": "ancora", "count": 5},
+      {"word": "cosa", "count": 5},
+      {"word": "salve", "count": 5},
+      {"word": "oggi", "count": 5},
+      {"word": "diretta", "count": 5},
+      {"word": "interista", "count": 5},
+      {"word": "campioni", "count": 5},
+      {"word": "presidente", "count": 5}
+    ],
+    "width": "container"
+  }
+}

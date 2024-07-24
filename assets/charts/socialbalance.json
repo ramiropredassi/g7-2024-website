@@ -1,0 +1,112 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-e6625347d0895bb7c016762dd1e8d8dc"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {"field": "Social Balance", "type": "quantitative"},
+    "tooltip": [
+      {"field": "Channels", "type": "nominal"},
+      {"field": "Social Balance", "type": "quantitative"},
+      {"field": "Balanced Triads", "type": "quantitative"},
+      {"field": "Total Triads", "type": "quantitative"}
+    ],
+    "x": {"field": "Channels", "title": "Channels", "type": "nominal"},
+    "y": {
+      "field": "Social Balance",
+      "title": "Social Balance",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "title": "Social Balance of Twitch Channels",
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-e6625347d0895bb7c016762dd1e8d8dc": [
+      {
+        "Channels": "ACMilan ",
+        "Social Balance": 0.88,
+        "Balanced Triads": 15,
+        "Total Triads": 17
+      },
+      {
+        "Channels": "AJGtv",
+        "Social Balance": 0.75,
+        "Balanced Triads": 3,
+        "Total Triads": 4
+      },
+      {
+        "Channels": "AssodiRoma",
+        "Social Balance": 0.5,
+        "Balanced Triads": 12,
+        "Total Triads": 24
+      },
+      {
+        "Channels": "FantaCalcio",
+        "Social Balance": 0.5862,
+        "Balanced Triads": 17,
+        "Total Triads": 29
+      },
+      {
+        "Channels": "Inter",
+        "Social Balance": 0.6667,
+        "Balanced Triads": 2,
+        "Total Triads": 3
+      },
+      {
+        "Channels": "TVPlay",
+        "Social Balance": 0.5,
+        "Balanced Triads": 16,
+        "Total Triads": 32
+      },
+      {
+        "Channels": "Controcalcio",
+        "Social Balance": 0.555,
+        "Balanced Triads": 10,
+        "Total Triads": 18
+      },
+      {
+        "Channels": "Daje",
+        "Social Balance": 0.6786,
+        "Balanced Triads": 19,
+        "Total Triads": 28
+      },
+      {
+        "Channels": "HouseofCalcio",
+        "Social Balance": 0,
+        "Balanced Triads": 0,
+        "Total Triads": 0
+      },
+      {
+        "Channels": "Teladoiotokyo",
+        "Social Balance": 0.6579,
+        "Balanced Triads": 25,
+        "Total Triads": 38
+      },
+      {
+        "Channels": "Juventibus",
+        "Social Balance": 0,
+        "Balanced Triads": 0,
+        "Total Triads": 1
+      },
+      {
+        "Channels": "OCW",
+        "Social Balance": 0.5829,
+        "Balanced Triads": 6293,
+        "Total Triads": 10795
+      },
+      {
+        "Channels": "LaCobra",
+        "Social Balance": 0.4555,
+        "Balanced Triads": 629,
+        "Total Triads": 1381
+      },
+      {
+        "Channels": "Davoo",
+        "Social Balance": 0.555,
+        "Balanced Triads": 5,
+        "Total Triads": 9
+      }
+    ]
+  }
+}

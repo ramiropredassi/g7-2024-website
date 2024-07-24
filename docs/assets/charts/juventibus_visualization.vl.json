@@ -1,0 +1,32 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-c6ca2b1459c219e83f4ec06b23a69602"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-c6ca2b1459c219e83f4ec06b23a69602": [
+      {"word": "juve", "count": 179},
+      {"word": "allegri", "count": 113},
+      {"word": "capuano", "count": 91},
+      {"word": "chiesa", "count": 89},
+      {"word": "solo", "count": 86},
+      {"word": "stasera", "count": 82},
+      {"word": "linter", "count": 78},
+      {"word": "fare", "count": 77},
+      {"word": "massimo", "count": 76},
+      {"word": "luca", "count": 76},
+      {"word": "sempre", "count": 72},
+      {"word": "mister", "count": 66},
+      {"word": "cosa", "count": 66},
+      {"word": "fatto", "count": 55},
+      {"word": "quando", "count": 53}
+    ],
+    "width": "container"
+  }
+}

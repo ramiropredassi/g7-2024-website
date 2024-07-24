@@ -1,0 +1,77 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-f8deb04bc639e9c0d2063ff88ceb49a3"},
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "color": {
+      "field": "emotion_0",
+      "scale": {"domain": ["neg", "pos"], "range": ["#e45756", "#4c78a8"]},
+      "type": "nominal"
+    },
+    "x": {"field": "team", "title": "Channels", "type": "nominal"},
+    "y": {
+      "aggregate": "sum",
+      "field": "value",
+      "stack": "normalize",
+      "title": "Sentiments",
+      "type": "quantitative"
+    }
+  },
+  "title": "Sentiment Probabilities by team",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-f8deb04bc639e9c0d2063ff88ceb49a3": [
+      {"team": "AJGtv", "emotion_0": "neg", "value": 0.969528317451477},
+      {"team": "AssoDiRoma", "emotion_0": "neg", "value": 0.00773107074201107},
+      {"team": "ControCalcio", "emotion_0": "neg", "value": 0.959778368473053},
+      {"team": "Daje", "emotion_0": "neg", "value": 0.92359858751297},
+      {"team": "FantaCalcio", "emotion_0": "neg", "value": 0.17841951549053192},
+      {
+        "team": "HouseOfCalcio",
+        "emotion_0": "neg",
+        "value": 0.9515901803970337
+      },
+      {"team": "Inter", "emotion_0": "neg", "value": 0.007861878722906113},
+      {"team": "Juventibus", "emotion_0": "neg", "value": 0.6453215479850769},
+      {"team": "Milan", "emotion_0": "neg", "value": 0.008243926800787449},
+      {"team": "OCW_Sport", "emotion_0": "neg", "value": 0.00783701241016388},
+      {
+        "team": "TeladoioTokyo",
+        "emotion_0": "neg",
+        "value": 0.8514420390129089
+      },
+      {"team": "TvPlay", "emotion_0": "neg", "value": 0.693868100643158},
+      {"team": "AJGtv", "emotion_0": "pos", "value": 0.6513004302978516},
+      {"team": "AssoDiRoma", "emotion_0": "pos", "value": 0.9085132479667664},
+      {
+        "team": "ControCalcio",
+        "emotion_0": "pos",
+        "value": 0.043272338807582855
+      },
+      {"team": "Daje", "emotion_0": "pos", "value": 0.8338485360145569},
+      {"team": "FantaCalcio", "emotion_0": "pos", "value": 0.923485517501831},
+      {
+        "team": "HouseOfCalcio",
+        "emotion_0": "pos",
+        "value": 0.2048950493335724
+      },
+      {"team": "Inter", "emotion_0": "pos", "value": 0.9770603179931641},
+      {"team": "Juventibus", "emotion_0": "pos", "value": 0.2776767611503601},
+      {"team": "Milan", "emotion_0": "pos", "value": 0.9633346199989319},
+      {"team": "OCW_Sport", "emotion_0": "pos", "value": 0.9201252460479736},
+      {
+        "team": "TeladoioTokyo",
+        "emotion_0": "pos",
+        "value": 0.9004030823707581
+      },
+      {"team": "TvPlay", "emotion_0": "pos", "value": 0.08206687122583389}
+    ]
+  },
+  "transform": [
+    {
+      "aggregate": [{"op": "sum", "field": "value", "as": "value"}],
+      "groupby": ["team", "emotion_0"]
+    }
+  ]
+}

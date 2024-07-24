@@ -22,7 +22,7 @@ header_title: "Conclusion"
   <hr class="flex-grow-1">
 </div>
 
-
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5asHwrPlgzHAnljWEnd8r4?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ##### Aggiungere qua tutta nostra roba, messagi, playlist, ecc.
 
 <div class="d-flex align-items-center my-4">

@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-a759dfefb917afd4bc61e27bdaec79cd"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-a759dfefb917afd4bc61e27bdaec79cd": [
+      {"word": "bayern", "count": 9},
+      {"word": "milan", "count": 6},
+      {"word": "quando", "count": 6},
+      {"word": "müller", "count": 5},
+      {"word": "molto", "count": 5},
+      {"word": "prima", "count": 5},
+      {"word": "però", "count": 4},
+      {"word": "bisogno", "count": 4},
+      {"word": "secondo", "count": 4},
+      {"word": "kane", "count": 4},
+      {"word": "kimmich", "count": 4},
+      {"word": "fatto", "count": 4},
+      {"word": "anni", "count": 4},
+      {"word": "bravo", "count": 4},
+      {"word": "servirebbe", "count": 3}
+    ]
+  }
+}

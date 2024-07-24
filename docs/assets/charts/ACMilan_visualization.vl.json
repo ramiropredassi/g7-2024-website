@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-5a2a1b2d1ee1c634aa42517302bad76a"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-5a2a1b2d1ee1c634aa42517302bad76a": [
+      {"word": "milan", "count": 269},
+      {"word": "forza", "count": 195},
+      {"word": "mauro", "count": 145},
+      {"word": "lollo", "count": 136},
+      {"word": "moneta", "count": 126},
+      {"word": "ciao", "count": 123},
+      {"word": "direttore", "count": 105},
+      {"word": "yepes", "count": 104},
+      {"word": "libero", "count": 95},
+      {"word": "homyatol", "count": 92},
+      {"word": "grande", "count": 91},
+      {"word": "entra", "count": 63},
+      {"word": "salutate", "count": 59},
+      {"word": "hauge", "count": 59},
+      {"word": "sempre", "count": 55}
+    ]
+  }
+}

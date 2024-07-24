@@ -1,0 +1,290 @@
+{
+  "config": {
+    "view": {"continuousWidth": 300, "continuousHeight": 300},
+    "axis": {"labelAngle": 45},
+    "title": {"anchor": "start", "color": "black", "fontSize": 16}
+  },
+  "data": {"name": "data-740abd0a9091e32f4b7e3ba2c8829fcb"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {
+      "field": "Sentimento",
+      "scale": {
+        "domain": ["neg", "neu", "pos"],
+        "range": ["#e45756", "#D7D8D7", "#4c78a8"]
+      },
+      "type": "nominal"
+    },
+    "order": {"field": "Sentimento", "sort": "ascending", "type": "nominal"},
+    "tooltip": [
+      {"field": "Categoria", "type": "nominal"},
+      {"field": "Sentimento", "type": "nominal"},
+      {"field": "Percentuale", "type": "quantitative"}
+    ],
+    "x": {"field": "Categoria", "title": "Categoria", "type": "nominal"},
+    "y": {
+      "field": "Percentuale",
+      "title": "Percentage of Sentiments",
+      "type": "quantitative"
+    }
+  },
+  "title": "Percentage Distribution of Sentiments by Category",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-740abd0a9091e32f4b7e3ba2c8829fcb": [
+      {
+        "Sentimento": "neu",
+        "Categoria": "Inter",
+        "Numero": 143,
+        "Totale": 313,
+        "Percentuale": 45.68690095846645
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Inter",
+        "Numero": 117,
+        "Totale": 313,
+        "Percentuale": 37.38019169329074
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Inter",
+        "Numero": 53,
+        "Totale": 313,
+        "Percentuale": 16.93290734824281
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "ACMilan",
+        "Numero": 2145,
+        "Totale": 3465,
+        "Percentuale": 61.904761904761905
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "ACMilan",
+        "Numero": 1051,
+        "Totale": 3465,
+        "Percentuale": 30.33189033189033
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "ACMilan",
+        "Numero": 269,
+        "Totale": 3465,
+        "Percentuale": 7.763347763347764
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "TVPlay",
+        "Numero": 1416,
+        "Totale": 2728,
+        "Percentuale": 51.90615835777126
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "TVPlay",
+        "Numero": 544,
+        "Totale": 2728,
+        "Percentuale": 19.941348973607038
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "TVPlay",
+        "Numero": 768,
+        "Totale": 2728,
+        "Percentuale": 28.152492668621704
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "AJGTv",
+        "Numero": 1503,
+        "Totale": 2897,
+        "Percentuale": 51.881256472212634
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "AJGTv",
+        "Numero": 742,
+        "Totale": 2897,
+        "Percentuale": 25.612702795995858
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "AJGTv",
+        "Numero": 652,
+        "Totale": 2897,
+        "Percentuale": 22.506040731791508
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "Asso di Roma",
+        "Numero": 6807,
+        "Totale": 12257,
+        "Percentuale": 55.5356123031737
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Asso di Roma",
+        "Numero": 2080,
+        "Totale": 12257,
+        "Percentuale": 16.96989475401811
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Asso di Roma",
+        "Numero": 3370,
+        "Totale": 12257,
+        "Percentuale": 27.49449294280819
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "Controcalcio",
+        "Numero": 3288,
+        "Totale": 6210,
+        "Percentuale": 52.946859903381636
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Controcalcio",
+        "Numero": 1352,
+        "Totale": 6210,
+        "Percentuale": 21.77133655394525
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Controcalcio",
+        "Numero": 1570,
+        "Totale": 6210,
+        "Percentuale": 25.28180354267311
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "Fantacalcio",
+        "Numero": 1008,
+        "Totale": 1673,
+        "Percentuale": 60.25104602510461
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Fantacalcio",
+        "Numero": 299,
+        "Totale": 1673,
+        "Percentuale": 17.872086072922894
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Fantacalcio",
+        "Numero": 366,
+        "Totale": 1673,
+        "Percentuale": 21.876867901972506
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "House of Calcio",
+        "Numero": 80,
+        "Totale": 137,
+        "Percentuale": 58.3941605839416
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "House of Calcio",
+        "Numero": 18,
+        "Totale": 137,
+        "Percentuale": 13.138686131386862
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "House of Calcio",
+        "Numero": 39,
+        "Totale": 137,
+        "Percentuale": 28.467153284671532
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "Juventibus",
+        "Numero": 1706,
+        "Totale": 3568,
+        "Percentuale": 47.813901345291484
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Juventibus",
+        "Numero": 658,
+        "Totale": 3568,
+        "Percentuale": 18.44170403587444
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Juventibus",
+        "Numero": 1204,
+        "Totale": 3568,
+        "Percentuale": 33.74439461883408
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 1109,
+        "Totale": 2055,
+        "Percentuale": 53.96593673965937
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 361,
+        "Totale": 2055,
+        "Percentuale": 17.566909975669102
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "TeladoioTokyo",
+        "Numero": 585,
+        "Totale": 2055,
+        "Percentuale": 28.467153284671532
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "OCW_Sport",
+        "Numero": 191627,
+        "Totale": 352381,
+        "Percentuale": 54.38062778640165
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "OCW_Sport",
+        "Numero": 85081,
+        "Totale": 352381,
+        "Percentuale": 24.14460484532367
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "OCW_Sport",
+        "Numero": 75673,
+        "Totale": 352381,
+        "Percentuale": 21.47476736827468
+      },
+      {
+        "Sentimento": "neu",
+        "Categoria": "Daje",
+        "Numero": 3450,
+        "Totale": 6960,
+        "Percentuale": 49.56896551724138
+      },
+      {
+        "Sentimento": "pos",
+        "Categoria": "Daje",
+        "Numero": 1723,
+        "Totale": 6960,
+        "Percentuale": 24.75574712643678
+      },
+      {
+        "Sentimento": "neg",
+        "Categoria": "Daje",
+        "Numero": 1787,
+        "Totale": 6960,
+        "Percentuale": 25.675287356321842
+      }
+    ]
+  }
+}

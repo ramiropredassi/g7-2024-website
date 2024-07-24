@@ -12,9 +12,9 @@ header_title: "Communities"
 ---
 # communities {#hide-communities}
 
-## ●	Have you thought the tone could relate to the people you interact with and the community structure?   
+## Have you thought the tone could relate to the people you interact with and the community structure?   
  - We, too! For this reason, we decided to study the social balance of our channels to identify if communities were created behind the platform and of what nature (positive, negative)!
- - QUA METTERE GRAFOS, PARLARE DI SOCIAL BALANCE, ETC.
+
 <br>
 
 <!-- Section separator -->
@@ -24,8 +24,9 @@ header_title: "Communities"
   <hr class="flex-grow-1">
 </div>
 
-Apart from exploring what individual people think, we wanted to explore their interactions to see if communities are also created (or divided) around football in the digital world!<br>
-##### Social balance a few immages of triads
+## Social balance
+grafo social balance entrambi paese
+<br>
 
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">

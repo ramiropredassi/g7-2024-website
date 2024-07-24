@@ -4,7 +4,7 @@
 
 layout: default-full
 title: "Home"
-subtitle: "Beer, Fernandito and Football"
+subtitle: "A linguistic and social network analysis on the role of football as geographical, cultural and social glue using data from Twitch"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/logo intro.png

@@ -1,0 +1,129 @@
+{
+  "config": {
+    "view": {"continuousWidth": 300, "continuousHeight": 300},
+    "axis": {"labelAngle": 45},
+    "title": {"anchor": "start", "color": "black", "fontSize": 16}
+  },
+  "data": {"name": "data-33a56d86af721ff9e03bc9884909464f"},
+  "mark": {"type": "bar"},
+  "encoding": {
+    "color": {
+      "field": "Sentimento",
+      "scale": {
+        "domain": ["anger", "disgust", "fear", "joy", "sadness", "surprise"],
+        "range": [
+          "#e45756",
+          "#9467bd",
+          "#4c78a8",
+          "#f58518",
+          "#72b7b2",
+          "#2ca02c"
+        ]
+      },
+      "type": "nominal"
+    },
+    "order": {"field": "Sentimento", "sort": "ascending", "type": "nominal"},
+    "tooltip": [
+      {"field": "Categoria", "type": "nominal"},
+      {"field": "Sentimento", "type": "nominal"},
+      {"field": "Percentuale", "type": "quantitative"}
+    ],
+    "x": {"field": "Categoria", "title": "Categoria", "type": "nominal"},
+    "y": {
+      "field": "Percentuale",
+      "title": "Percentuale di Sentimenti",
+      "type": "quantitative"
+    }
+  },
+  "title": "Distribuzione Percentuale delle Emotions per Categoria",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-33a56d86af721ff9e03bc9884909464f": [
+      {
+        "Sentimento": "joy",
+        "Categoria": "Davo",
+        "Numero": 709,
+        "Totale": 1105,
+        "Percentuale": 64.16289592760181
+      },
+      {
+        "Sentimento": "disgust",
+        "Categoria": "Davo",
+        "Numero": 262,
+        "Totale": 1105,
+        "Percentuale": 23.710407239819002
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "Davo",
+        "Numero": 96,
+        "Totale": 1105,
+        "Percentuale": 8.687782805429864
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "Davo",
+        "Numero": 31,
+        "Totale": 1105,
+        "Percentuale": 2.805429864253394
+      },
+      {
+        "Sentimento": "surprise",
+        "Categoria": "Davo",
+        "Numero": 6,
+        "Totale": 1105,
+        "Percentuale": 0.5429864253393665
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "Davo",
+        "Numero": 1,
+        "Totale": 1105,
+        "Percentuale": 0.09049773755656108
+      },
+      {
+        "Sentimento": "joy",
+        "Categoria": "LaCobra",
+        "Numero": 22048,
+        "Totale": 58382,
+        "Percentuale": 37.76506457469768
+      },
+      {
+        "Sentimento": "disgust",
+        "Categoria": "LaCobra",
+        "Numero": 28205,
+        "Totale": 58382,
+        "Percentuale": 48.31112329142544
+      },
+      {
+        "Sentimento": "sadness",
+        "Categoria": "LaCobra",
+        "Numero": 4492,
+        "Totale": 58382,
+        "Percentuale": 7.694152307217979
+      },
+      {
+        "Sentimento": "anger",
+        "Categoria": "LaCobra",
+        "Numero": 3052,
+        "Totale": 58382,
+        "Percentuale": 5.22763865575006
+      },
+      {
+        "Sentimento": "surprise",
+        "Categoria": "LaCobra",
+        "Numero": 500,
+        "Totale": 58382,
+        "Percentuale": 0.8564283512041382
+      },
+      {
+        "Sentimento": "fear",
+        "Categoria": "LaCobra",
+        "Numero": 85,
+        "Totale": 58382,
+        "Percentuale": 0.1455928197047035
+      }
+    ]
+  }
+}

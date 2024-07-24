@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-3ba0d338c54413642ca2d68fbc92e871"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-3ba0d338c54413642ca2d68fbc92e871": [
+      {"word": "asso", "count": 1306},
+      {"word": "roma", "count": 569},
+      {"word": "buonasera", "count": 287},
+      {"word": "haha", "count": 283},
+      {"word": "liverpool", "count": 238},
+      {"word": "leverkusen", "count": 233},
+      {"word": "secondo", "count": 223},
+      {"word": "milan", "count": 206},
+      {"word": "pure", "count": 199},
+      {"word": "fatto", "count": 191},
+      {"word": "arbitro", "count": 188},
+      {"word": "asse", "count": 187},
+      {"word": "ciao", "count": 186},
+      {"word": "usercial", "count": 185},
+      {"word": "assone", "count": 180}
+    ]
+  }
+}

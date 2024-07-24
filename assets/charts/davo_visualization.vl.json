@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-f72d91cae2984968820402b22879eb95"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width":"container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-f72d91cae2984968820402b22879eb95": [
+      {"word": "davo", "count": 2021},
+      {"word": "davito", "count": 1497},
+      {"word": "gool", "count": 1071},
+      {"word": "madrid", "count": 592},
+      {"word": "united", "count": 560},
+      {"word": "city", "count": 557},
+      {"word": "banco", "count": 534},
+      {"word": "burro", "count": 485},
+      {"word": "pavo", "count": 459},
+      {"word": "barca", "count": 456},
+      {"word": "champions", "count": 365},
+      {"word": "grande", "count": 357},
+      {"word": "liverpool", "count": 343},
+      {"word": "partido", "count": 336},
+      {"word": "hace", "count": 326}
+    ]
+  }
+}

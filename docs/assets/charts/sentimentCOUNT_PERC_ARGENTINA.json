@@ -1,0 +1,176 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "height": 300,
+  "title": {
+    "anchor": "start",
+    "text": "Distribuzione Percentuale del Sentimento per Categoria"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "data-4dc9843a597e9dd9a3f5290f5f164571",
+      "values": [
+        {
+          "Sentimento": "NEU",
+          "Categoria": "Davo",
+          "Numero": 48715,
+          "Totale": 62935,
+          "Percentuale": 77.4052593946135
+        },
+        {
+          "Sentimento": "NEG",
+          "Categoria": "Davo",
+          "Numero": 9304,
+          "Totale": 62935,
+          "Percentuale": 14.783506792722651
+        },
+        {
+          "Sentimento": "POS",
+          "Categoria": "Davo",
+          "Numero": 4916,
+          "Totale": 62935,
+          "Percentuale": 7.811233812663859
+        },
+        {
+          "Sentimento": "NEU",
+          "Categoria": "LaCobra",
+          "Numero": 2061883,
+          "Totale": 2537923,
+          "Percentuale": 81.24292975003576
+        },
+        {
+          "Sentimento": "NEG",
+          "Categoria": "LaCobra",
+          "Numero": 294597,
+          "Totale": 2537923,
+          "Percentuale": 11.60779897577665
+        },
+        {
+          "Sentimento": "POS",
+          "Categoria": "LaCobra",
+          "Numero": 181443,
+          "Totale": 2537923,
+          "Percentuale": 7.149271274187593
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-4dc9843a597e9dd9a3f5290f5f164571",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["Categoria"],
+          "field": "Percentuale",
+          "sort": {"field": ["Sentimento"], "order": ["ascending"]},
+          "as": ["Percentuale_start", "Percentuale_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Percentuale\"]) && isFinite(+datum[\"Percentuale\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "x_step", "value": 20},
+    {
+      "name": "width",
+      "update": "bandspace(domain('x').length, 0.1, 0.05) * x_step"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "rect",
+      "style": ["bar"],
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Sentimento"},
+          "tooltip": {
+            "signal": "{\"Categoria\": isValid(datum[\"Categoria\"]) ? datum[\"Categoria\"] : \"\"+datum[\"Categoria\"], \"Sentimento\": isValid(datum[\"Sentimento\"]) ? datum[\"Sentimento\"] : \"\"+datum[\"Sentimento\"], \"Percentuale\": format(datum[\"Percentuale\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "bar"},
+          "description": {
+            "signal": "\"Categoria: \" + (isValid(datum[\"Categoria\"]) ? datum[\"Categoria\"] : \"\"+datum[\"Categoria\"]) + \"; Percentuale di Sentimenti: \" + (format(datum[\"Percentuale\"], \"\")) + \"; Sentimento: \" + (isValid(datum[\"Sentimento\"]) ? datum[\"Sentimento\"] : \"\"+datum[\"Sentimento\"]) + \"; Percentuale: \" + (format(datum[\"Percentuale\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "Categoria"},
+          "width": {"signal": "max(0.25, bandwidth('x'))"},
+          "y": {"scale": "y", "field": "Percentuale_end"},
+          "y2": {"scale": "y", "field": "Percentuale_start"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {"data": "data_0", "field": "Categoria", "sort": true},
+      "range": {"step": {"signal": "x_step"}},
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "data": "data_0",
+        "fields": ["Percentuale_start", "Percentuale_end"]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["NEG", "NEU", "POS"],
+      "range": ["#e45756", "#D7D8D7", "#4c78a8"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Categoria",
+      "labelAlign": "left",
+      "labelBaseline": "top",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Percentuale di Sentimenti",
+      "labelAlign": "right",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [{"fill": "color", "symbolType": "square", "title": "Sentimento"}],
+  "config": {
+    "axis": {"labelAngle": 45},
+    "style": {"group-title": {"fontSize": 16, "fill": "black"}}
+  }
+}

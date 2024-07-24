@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-8a22b274daab5ce94d285e17214649c1"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-8a22b274daab5ce94d285e17214649c1": [
+      {"word": "allegri", "count": 71},
+      {"word": "maresca", "count": 60},
+      {"word": "rocchi", "count": 60},
+      {"word": "haha", "count": 53},
+      {"word": "juve", "count": 47},
+      {"word": "bene", "count": 47},
+      {"word": "solo", "count": 43},
+      {"word": "denise", "count": 42},
+      {"word": "sempre", "count": 41},
+      {"word": "dovè", "count": 37},
+      {"word": "partita", "count": 37},
+      {"word": "ragazzi", "count": 34},
+      {"word": "forza", "count": 34},
+      {"word": "fare", "count": 32},
+      {"word": "ciao", "count": 32}
+    ]
+  }
+}

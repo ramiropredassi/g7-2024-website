@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-1ae58ad18598aefe8b19c3fb1515afab"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-1ae58ad18598aefe8b19c3fb1515afab": [
+      {"word": "gordo:", "count": 73337},
+      {"word": "huelga:", "count": 46188},
+      {"word": "gool:", "count": 32361},
+      {"word": "cobra:", "count": 28255},
+      {"word": "cobrayuki:", "count": 23952},
+      {"word": "madrid:", "count": 23843},
+      {"word": "pikachu:", "count": 22933},
+      {"word": "banco:", "count": 21905},
+      {"word": "factos:", "count": 16054},
+      {"word": "chicos:", "count": 14721},
+      {"word": "molly:", "count": 14638},
+      {"word": "gordito:", "count": 13928},
+      {"word": "boca:", "count": 13738},
+      {"word": "basta:", "count": 13336},
+      {"word": "uuff:", "count": 11619}
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-374ff4dcd677d81a56884960ad1e521d"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-374ff4dcd677d81a56884960ad1e521d": [
+      {"word": "alfredo", "count": 45},
+      {"word": "ragazzi", "count": 42},
+      {"word": "secondo", "count": 42},
+      {"word": "lookman", "count": 42},
+      {"word": "lazio", "count": 36},
+      {"word": "solo", "count": 35},
+      {"word": "ciao", "count": 34},
+      {"word": "voto", "count": 32},
+      {"word": "zirkzee", "count": 32},
+      {"word": "quando", "count": 29},
+      {"word": "sarri", "count": 29},
+      {"word": "live", "count": 25},
+      {"word": "fatto", "count": 25},
+      {"word": "milan", "count": 25},
+      {"word": "bologna", "count": 25}
+    ]
+  }
+}

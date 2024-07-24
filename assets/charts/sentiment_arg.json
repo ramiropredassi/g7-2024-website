@@ -1,0 +1,42 @@
+{
+  "config": {"view": {"continuousWidth": 300, "continuousHeight": 300}},
+  "data": {"name": "data-1ef7c70f55ab0342113de71bd2c51446"},
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "color": {
+      "field": "emotion_0",
+      "scale": {
+        "domain": ["NEG", "NEU", "POS"],
+        "range": ["#e45756", "#D7D8D7", "#4c78a8"]
+      },
+      "type": "nominal"
+    },
+    "x": {"field": "team", "title": "Channels", "type": "nominal"},
+    "y": {
+      "aggregate": "sum",
+      "field": "value",
+      "stack": "normalize",
+      "title": "Sentiment",
+      "type": "quantitative"
+    }
+  },
+  "title": "Sentiment Probabilities by team",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-1ef7c70f55ab0342113de71bd2c51446": [
+      {"team": "Davo", "emotion_0": "NEG", "value": 0.8872556090354919},
+      {"team": "LaCobra", "emotion_0": "NEG", "value": 0.3977051377296448},
+      {"team": "Davo", "emotion_0": "NEU", "value": 0.10827726870775223},
+      {"team": "LaCobra", "emotion_0": "NEU", "value": 0.5752045512199402},
+      {"team": "Davo", "emotion_0": "POS", "value": 0.004467089660465717},
+      {"team": "LaCobra", "emotion_0": "POS", "value": 0.027090279385447502}
+    ]
+  },
+  "transform": [
+    {
+      "aggregate": [{"op": "sum", "field": "value", "as": "value"}],
+      "groupby": ["team", "emotion_0"]
+    }
+  ]
+}

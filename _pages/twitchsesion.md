@@ -27,7 +27,7 @@ vega: true
   <hr class="flex-grow-1">
 </div>
 
-The new technologies have contributed to bringing these experiences to the comfort of your home!<br>
+New technologies have contributed to bringing these experiences to the comfort of your home!<br>
 ##### **_Twitch_** is an interactive streaming service that, in addition to exploring opinion threads, allows us to capture user interactions – even if people are in different parts of the world!
 
 <!-- interview quote -->
@@ -135,7 +135,7 @@ Although the Atlantic geographically separates these two countries, the digital 
 <!-- Distance map -->
 <div class="container mt-3">
     <div class="row justify-content-center">
-                <vegachart schema-url="{{site.baseurl}}/assets/charts/arg_ita.json" style="width: 100%"></vegachart>
+        <vegachart schema-url="{{site.baseurl}}/assets/charts/arg_ita.json" style="width: 100%"></vegachart>
     </div>
 </div>
 <br>   

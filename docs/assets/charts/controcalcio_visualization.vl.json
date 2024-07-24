@@ -1,0 +1,31 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-827bbfd2b992e1859a82505551927afd"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-827bbfd2b992e1859a82505551927afd": [
+      {"word": "haha", "count": 309},
+      {"word": "faina", "count": 169},
+      {"word": "chirico", "count": 148},
+      {"word": "sciscione", "count": 142},
+      {"word": "camelio", "count": 90},
+      {"word": "roma", "count": 90},
+      {"word": "milan", "count": 88},
+      {"word": "asso", "count": 86},
+      {"word": "enerix", "count": 83},
+      {"word": "fatto", "count": 78},
+      {"word": "solo", "count": 72},
+      {"word": "inter", "count": 69},
+      {"word": "juve", "count": 66},
+      {"word": "lazio", "count": 66},
+      {"word": "damiano", "count": 61}
+    ],
+    "width": "container"
+  }
+}

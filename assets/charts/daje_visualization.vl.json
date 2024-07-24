@@ -1,0 +1,32 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "data": {"name": "data-4f81929b2c1c0cae0ee8e01bae04166b"},
+  "mark": {"type": "bar", "color": "darkred", "tooltip": true},
+  "encoding": {
+    "x": {"field": "word", "sort": null, "type": "nominal"},
+    "y": {"field": "count", "type": "quantitative"}
+  },
+  "title": "Most common words",
+  "width": "container",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-4f81929b2c1c0cae0ee8e01bae04166b": [
+      {"word": "roma", "count": 459},
+      {"word": "haha", "count": 232},
+      {"word": "milan", "count": 204},
+      {"word": "secondo", "count": 180},
+      {"word": "buonasera", "count": 178},
+      {"word": "ciao", "count": 142},
+      {"word": "fatto", "count": 134},
+      {"word": "lazio", "count": 131},
+      {"word": "champions", "count": 124},
+      {"word": "bologna", "count": 119},
+      {"word": "bene", "count": 118},
+      {"word": "pure", "count": 115},
+      {"word": "partita", "count": 111},
+      {"word": "comunque", "count": 110},
+      {"word": "forte", "count": 107}
+    ],
+    "width": "container"
+  }
+}

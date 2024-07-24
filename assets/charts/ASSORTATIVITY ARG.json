@@ -1,0 +1,50 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "strokeOpacity": 0
+    },
+    "axis": {"labelFontSize": 12, "titleFontSize": 14},
+    "legend": {"labelFontSize": 12, "titleFontSize": 14},
+    "title": {"anchor": "start", "color": "gray", "fontSize": 20}
+  },
+  "data": {"name": "data-52cd9c4ce9acbf634666f1c84b67d5ca"},
+  "mark": {"type": "bar", "cornerRadius": 10},
+  "encoding": {
+    "color": {
+      "condition": {"test": "(datum.Assortativity > 0)", "value": "#4c78a8"},
+      "value": "#e45756"
+    },
+    "tooltip": [
+      {"field": "Channels", "type": "nominal"},
+      {"field": "Assortativity", "type": "quantitative"}
+    ],
+    "x": {
+      "axis": {"labelAngle": -45},
+      "field": "Channels",
+      "title": "Channels",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Assortativity",
+      "scale": {"domain": [-0.1, 0.2]},
+      "title": "Assortativity",
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": {
+    "text": "Assortativity Coefficients of Networks",
+    "anchor": "middle",
+    "fontSize": 18
+  },
+  "width": 600,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "datasets": {
+    "data-52cd9c4ce9acbf634666f1c84b67d5ca": [
+      {"Channels": "LaCobra", "Assortativity": 0.020751423938050417},
+      {"Channels": "Davoo", "Assortativity": 0.007451958339445547}
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+  - name: Italy
+    url:  "assets/charts/mark_bar.json"
+    description: "ma vaffacunlo"
+  - name: Argentina
+    url:  "assets/charts/mark_barARGdiviso.json"
+    description: "stronzo"

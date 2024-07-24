@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
   "config": {
+    "autosize": "pad",
     "view": {
       "continuousHeight": 300,
       "continuousWidth": 300
