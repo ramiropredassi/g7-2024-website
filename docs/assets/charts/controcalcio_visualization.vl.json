@@ -7,6 +7,7 @@
     "y": {"field": "count", "type": "quantitative"}
   },
   "title": "Most common words",
+  "width": "container",
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "datasets": {
     "data-827bbfd2b992e1859a82505551927afd": [

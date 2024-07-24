@@ -14,7 +14,12 @@ vega: true
 # communities {#hide-communities}
 
 ## Have you thought the tone could relate to the people you interact with and the community structure?
-#Grafo roma non si apre
+
+<!-- Pyvis interaction graph -->
+<div class="graph-container mt-1">
+    <iframe src="{{ '/assets/charts/roma.html' | relative_url }}" width="100%" height="400px" frameborder="0" allowfullscreen></iframe>
+</div>
+
 - We, too! For this reason, we decided to study the social balance of our channels to identify if communities were created behind the platform and of what nature (positive, negative)!
 <br>
 
@@ -34,7 +39,17 @@ vega: true
 **_You might be wondering, as we did, why the number of triads tended to be small!_**<br>
 We have come up with a tentative explanation concerning the time frame of our analysis. Since Twitch is a live stream platform and, therefore, most of the time, people respond to what Streamer says in a specific moment, we could expect that by increasing the time frame, it would be possible to trace more interactions and, therefore, the formation of potential triads.
 #### If you are wondering what triads are?
-????????????????????????????
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            {% capture triads %}
+            {% include_relative snippets/triads.md %}
+            {% endcapture %}
+            {% include modal-component.html title="Triads" content=triads id="triads" size="md" %}
+        </div>
+    </div>
+</div>
 
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">

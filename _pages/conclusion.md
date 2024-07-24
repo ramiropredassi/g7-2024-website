@@ -45,7 +45,7 @@ We hope you liked it too and let us know if you want to share your takeaways wit
 
 ##### Are you really working on the project?
 <div class="d-flex align-items-center justify-content-center my-4">
-  <img src="{{ '/assets/images/TIME TO WORK.png' | relative_url }}" alt="Football" style="width: 100%; max-width: 100%; height: auto; object-fit: cover;">
+  <img src="{{ '/assets/images/TIME TO WORK.jpeg' | relative_url }}" alt="Football" style="width: 100%; max-width: 100%; height: auto; object-fit: cover;">
 </div>
 
 

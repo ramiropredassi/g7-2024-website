@@ -35,6 +35,8 @@ github_repo:
     url: "https://github.com/mirianasomenzi/g7_2024_lbdai"
   - name: "Group 7 - Website repository"
     url: "https://github.com/ramiropredassi/g7-2024-website.git"
+  - name: "Group 7 - Technical report"
+    url: "https://github.com/mirianasomenzi/g7_2024_lbdai/blob/main/deliverables/Technical_Report_Beer__Fernandito_and_Football.pdf"
 
 
 
@@ -51,7 +53,7 @@ navbar:
   nav:
     - title: Twitch
       url: /twitchsesion
-    - title: Sentiments & Emotions
+    - title: Sentiment & Emotions
       url: /sentiment&emotion
     - title: Communities
       url: /communities
