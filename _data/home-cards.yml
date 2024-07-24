@@ -2,7 +2,7 @@
   url:  "assets/images/twitch_t.png"
   description: "Everything you need to know about our project"
   path: "twitchsesion"
-- name: Sentiments & Emotions
+- name: Sentiment & Emotions
   url:  "assets/images/sentiment_t.png"
   description: "Sentiment & Emotions"
   path: "sentiment&emotion"

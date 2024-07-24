@@ -19,7 +19,7 @@
   },
   "height": 400,
   "title": "Social Balance of Twitch Channels",
-  "width": 600,
+  "width": "container",
   "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
   "datasets": {
     "data-e6625347d0895bb7c016762dd1e8d8dc": [

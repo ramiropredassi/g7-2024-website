@@ -15,10 +15,8 @@ vega: true
 ## Do you also watch football in the company of other fanatics?
 - Have you ever felt that strangers could become close friends after watching a match?
  - Have you cried or celebrated the result of your football team in the presence of other people?
- - Do you enjoy chatting and sharing your opinions during a game?
-<br> 
-
-#### **_We all love to do that, so we used to watch our favourite matches in a pub!_**
+ - Do you enjoy chatting and sharing your opinions about a game?
+<br>
 
 <!-- Section separator -->
 <div class="d-flex align-items-center my-4">
@@ -27,8 +25,9 @@ vega: true
   <hr class="flex-grow-1">
 </div>
 
-New technologies have contributed to bringing these experiences to the comfort of your home!<br>
-##### **_Twitch_** is an interactive streaming service that, in addition to exploring opinion threads, allows us to capture user interactions – even if people are in different parts of the world!
+New technologies have contributed to bringing these experiences to the comfort of your home!
+    It's like having the collective experience of watching your favourite match in a pub, but online, and without borders!<br>
+##### We chose to investigate **_Twitch_**, an interactive streaming service that, in addition to exploring opinion threads, allows us to capture user interactions – even if people are in different parts of the world!
 
 <!-- interview quote -->
 <style>
@@ -51,6 +50,16 @@ New technologies have contributed to bringing these experiences to the comfort o
 
 >Encouraged to understand if football is an element of unity or division, we found it interesting to explore how communities grew up on Twitch, how they interact, and how they influence each other.
 
+<!-- Section separator -->
+<div class="d-flex align-items-center my-4">
+  <hr class="flex-grow-1">
+  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
+  <hr class="flex-grow-1">
+</div>
+
+Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
+**_In Argentina, there are two main channels with a larger active user' base while in Italy there are more channels but smaller, so we used  Twitchmetrics to select the most popular based on the number of views!_**
+
 <!-- table with statistics -->
 #####  Unique users in the channels that have been selected:
 <div class="container mt-3">
@@ -68,44 +77,7 @@ New technologies have contributed to bringing these experiences to the comfort o
   </div>
 </div>
 
-<!-- Section separator -->
-<div class="d-flex align-items-center my-4">
-  <hr class="flex-grow-1">
-  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
-  <hr class="flex-grow-1">
-</div>
-
-## Why football? Besides our passion for this sport, this is also the most popular sport today!
-With its 5 billion fans around the world (FIFA 2021), football has become a true social phenomenon that can be studied from different points of view. This discipline can also analyse different aspects of society.
-
-Even if we want to explore what happens in each club, country, and continent, limiting our initial search to two cases, Italy 🇮🇹 and Argentina 🇦🇷, is pertinent.
-<br>Not only do we love ❤️ these countries' football clubs, but they are nations that share a common history despite being separated by the ocean. 
-
-<!-- Button to see historical connections between italy and Argentina -->
-<div class="container mt-3">
-    <div class="row justify-content-center">
-        <div class="col-auto">
-            {% capture whyArgIT %}
-            {% include_relative snippets/whyArgIT.md %}
-            {% endcapture %}
-            {% include modal-component.html title="Why Italy and Argentina" content=whyArgIT id="whyArgIT" size="xl" %}
-        </div>
-    </div>
-</div>
-
-<br>Italians and Argentinians are passionate about football 
-Both countries also share common historical roots, and there are numerous examples of players who connect both football realities!.
-
-<!-- Section separator -->
-<div class="d-flex align-items-center my-4">
-  <hr class="flex-grow-1">
-  <img src="{{ '/assets/images/separator.png' | relative_url }}" alt="Football" style="width: 110px; height: 50px; margin: 0 10px;">
-  <hr class="flex-grow-1">
-</div>
-
-Although they share a similar football history, Twitch dynamics are not the same in both countries, and we also found it interesting to capture this difference.<br>
-**_In Argentina, we have focus on two main channels while in Italy, there are many more. We used Twitchmetrics to select the most popular based on the number of views!_**
-## Messages analyzed by language: 
+##### Messages analyzed by language: 
 
 <!-- table with statistics -->
 <div class="container mt-3">
@@ -168,7 +140,7 @@ Although the Atlantic geographically separates these two countries, the digital 
   <hr class="flex-grow-1">
 </div>
 
-### To explore whether our intuition was true in this "digital pub", Twitch, we decided to perform two analyses: sentiment analysis and social network analysis.
+### to go further in our study we performed two analyses: sentiment and social network analysis
 <br>
 Keep reading our story by clicking the button below or going to **SENTIMENTS AND EMOTIONS** section in the navigation bar.
 
